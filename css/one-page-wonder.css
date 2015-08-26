@@ -18,7 +18,11 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-
+@media(max-width:375px) {
+    .header-image {
+        background: #2A398A;
+    }
+}
 .headline {
     padding: 120px 0;
 }
