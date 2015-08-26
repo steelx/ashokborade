@@ -176,3 +176,101 @@ footer {
         margin-left: 0;
     }
 }
+
+
+/* Contact Form Block Css */
+#contact-form {
+    padding: 10px 0;
+}
+
+#contact-form .input-txt {
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 255px;
+    padding-left: 12px;
+    color: #999;
+    margin-left: 5px;
+}
+
+#contact-form .submit {
+    background-color: #21BC56;
+    color: #fff;
+    padding: 0px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+#contact-form .formfields {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* ERRORs */
+#contact-form .error-field input,
+#contact-form .error-field input[type=text],
+#contact-form .error-field input[type=password],
+#contact-form .error-field input[type=email],
+#contact-form .error-field input[type=url],
+#contact-form .error-field input[type=date],
+#contact-form .error-field input[type=number],
+#contact-form .error-field input[type=tel],
+#contact-form .error-field textarea {
+    border-color: #cc3d3d;
+    /*background-color: #cc3d3d;*/
+}
+
+#contact-form .tooltip-error {
+    color: #cc3d3d;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 4px;
+    text-indent: 10px;
+}
+
+.tooltip-error {
+    margin: 0;
+}
+
+#success,
+#fail {
+    color: #21BC56;
+    text-align: center;
+    padding: 0 0 15px;
+}
+
+#fail {
+    color: #cc3d3d;
+}
+
+@media (min-width: 320px)  and (max-width: 1024px) {
+
+    #contact-form .input-txt {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 16px;;
+    }
+
+    #contact-form .formfields {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    #contact-form .first-name-field {
+        float: left;
+        width: 48%;
+    }
+
+    #contact-form .last-name-field {
+        float: right;
+        width: 48%;
+    }
+
+    #contact-form .submit {
+        margin: 10px 0px 30px 0px;
+    }
+
+
+}
