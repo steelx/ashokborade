@@ -274,3 +274,8 @@ footer {
 
 
 }
+
+.social-button {
+    float: right;
+    margin: 12px 0 0;
+}
