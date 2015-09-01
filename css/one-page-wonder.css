@@ -283,3 +283,9 @@ footer {
     float: right;
     margin: 12px 0 0;
 }
+
+.external, .external a {
+    height: 1px;
+    font-size: 6px;
+    color: #ffffff;
+}
